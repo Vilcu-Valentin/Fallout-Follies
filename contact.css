@@ -1,10 +1,17 @@
+@font-face {
+  font-family: 'Overseer';
+  src: url('font/monofonto rg.otf')
+}
+
 /* Body Styles */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Overseer', sans-serif;
   margin: 0;
   padding: 0;
   background-image: url("img/background.jpg");
   color: #fff;
+    color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* Container Styles */
@@ -19,7 +26,7 @@ body {
 header {
   background-color: #222222;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Overseer', sans-serif;
   padding: 20px 0;
 }
 
