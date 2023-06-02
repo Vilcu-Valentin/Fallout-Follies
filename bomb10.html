@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Uranium Unicorn</title>
   <link rel="stylesheet" href="product.css">
+  <script type="text/javascript" src="cart.js"></script>
 </head>
 <body>
   <div class="container">
@@ -18,6 +19,7 @@
               <li><a href="shop_now.html">Shop</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
          </ul>
        </nav>
       </div>
@@ -25,10 +27,10 @@
 
 <div class="product-page">
   <div class="product-image">
-    <img src="img/uranium_unicorn.png" alt="Product Image">
+    <img id="img-name" src="img/uranium_unicorn.png" alt="Product Image">
   </div>
   <div class="product-info">
-    <h2>Uranium Unicorn</h2>
+    <h2 id="bomb-name">Uranium Unicorn</h2>
     <p class="product-description">This magical bomb will transport you to a world of pure, radioactive delight. Don't let its cute exterior fool you – it packs a powerful punch!</p>
      <ul class="product-specs">
       <li>For those days when a simple bomb just won't cut it</li>
@@ -44,7 +46,7 @@
         <span>85 kilotons</span>
       </div>
       <div class="product-price">
-        <span>$1249.99</span>
+        <span id="price">1250.00</span>
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>

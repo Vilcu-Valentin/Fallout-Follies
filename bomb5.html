@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Plutonium Pizzazz</title>
   <link rel="stylesheet" href="product.css">
+  <script type="text/javascript" src="cart.js"></script>
 </head>
 <body>
   <div class="container">
@@ -18,6 +19,7 @@
               <li><a href="shop_now.html">Shop</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
          </ul>
        </nav>
       </div>
@@ -25,10 +27,10 @@
 
 <div class="product-page">
   <div class="product-image">
-    <img src="img/plutonium_pizzazz.png" alt="Product Image">
+    <img id="img-name" src="img/plutonium_pizzazz.png" alt="Product Image">
   </div>
   <div class="product-info">
-    <h2>Plutonium Pizzazz</h2>
+    <h2 id="bomb-name">Plutonium Pizzazz</h2>
     <p class="product-description">This bomb has style and flair, with a little bit of extra radioactive punch. It's perfect for when you want to make a statement and leave an impact.</p>
      <ul class="product-specs">
       <li>Contains 100% explosive energy, 0% nutritional value</li>
@@ -44,7 +46,7 @@
         <span>25 kilotons</span>
       </div>
       <div class="product-price">
-        <span>$399.99</span>
+        <span id="price">400.00</span>
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>

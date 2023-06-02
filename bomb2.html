@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fission Fiesta</title>
   <link rel="stylesheet" href="product.css">
+    <script type="text/javascript" src="cart.js"></script>
 </head>
 <body>
   <div class="container">
@@ -18,6 +19,7 @@
               <li><a href="shop_now.html">Shop</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
          </ul>
        </nav>
       </div>
@@ -25,10 +27,10 @@
 
 <div class="product-page">
   <div class="product-image">
-    <img src="img/fission_fiesta.png" alt="Product Image">
+    <img id="img-name" src="img/fission_fiesta.png" alt="Product Image">
   </div>
   <div class="product-info">
-    <h2>Fission Fiesta</h2>
+    <h2 id="bomb-name">Fission Fiesta</h2>
     <p class="product-description">Looking for a way to spice up your outdoor party? Look no further than our Fission Fiesta. With a rainbow of radioactive colors, this bomb will light up the sky and keep the party going all night long.</p>
     <ul class="product-specs">
       <li>Advanced fission technology for maximum boom potential</li>
@@ -44,7 +46,7 @@
         <span>100 kilotons</span>
       </div>
       <div class="product-price">
-        <span>$1999.99</span>
+        <span id="price">2000.00</span>
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>

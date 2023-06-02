@@ -246,17 +246,6 @@ cite {
   color: #777777;
 }
 
-/* List Styles */
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-li {
-  margin: 10px 0;
-}
-
 /* Image Styles */
 img {
   max-width: 50%;

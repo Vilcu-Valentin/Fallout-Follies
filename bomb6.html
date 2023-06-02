@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Radioactive Razzle Dazzle</title>
   <link rel="stylesheet" href="product.css">
+  <script type="text/javascript" src="cart.js"></script>
 </head>
 <body>
   <div class="container">
@@ -18,6 +19,7 @@
               <li><a href="shop_now.html">Shop</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
          </ul>
        </nav>
       </div>
@@ -25,10 +27,10 @@
 
 <div class="product-page">
   <div class="product-image">
-    <img src="img/radioactive_razzle.png" alt="Product Image">
+    <img id="img-name" src="img/radioactive_razzle.png" alt="Product Image">
   </div>
   <div class="product-info">
-    <h2>Radioactive Razzle Dazzle</h2>
+    <h2 id="bomb-name">Radioactive Razzle Dazzle</h2>
     <p class="product-description">This bomb creates a dazzling light show that will leave you in awe. But beware, the after-effects may be less than desirable.</p>
          <ul class="product-specs">
       <li>Bomb-licious" design that will blow your mind (and everything else).</li>
@@ -44,7 +46,7 @@
         <span>500 kilotons</span>
       </div>
       <div class="product-price">
-        <span>$3499.99</span>
+        <span id="price">3500.00</span>
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>

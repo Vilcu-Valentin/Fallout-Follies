@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meltdown Muffin</title>
   <link rel="stylesheet" href="product.css">
+  <script type="text/javascript" src="cart.js"></script>
 </head>
 <body>
   <div class="container">
@@ -18,6 +19,7 @@
               <li><a href="shop_now.html">Shop</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
          </ul>
        </nav>
       </div>
@@ -25,10 +27,10 @@
 
 <div class="product-page">
   <div class="product-image">
-    <img src="img/meltdown_muffin.png" alt="Product Image">
+    <img id="img-name" src="img/meltdown_muffin.png" alt="Product Image">
   </div>
   <div class="product-info">
-    <h2>Meltdown Muffin</h2>
+    <h2 id="bomb-name">Meltdown Muffin</h2>
     <p class="product-description">Guaranteed to give you a warm, toasty feeling inside. It's the perfect pick-me-up on a cold, dark day. Its explosive power is enough to warm up even the coldest of hearts, and leave a toasty feeling that lasts for miles around.</p>
     <ul class="product-specs">
       <li>Just like grandma used to make, except with a lot more radiation.</li>
@@ -44,7 +46,7 @@
         <span>5,000 kilotons</span>
       </div>
       <div class="product-price">
-        <span>$7999.99</span>
+        <span id="price">8000.00</span>
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
